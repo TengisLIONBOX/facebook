@@ -18,7 +18,7 @@ body {
   margin-right: auto;
   padding-left: 20px;
   padding-right: 20px;
-  max-width: 1200px;
+  max-width: 60vw;
   width: 100%;
   box-sizing: border-box;
 }
@@ -27,11 +27,11 @@ body {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  border-bottom: 1px solid rgb(182, 182, 182);
 }
 .name {
   display: flex;
-  font-size: 32px;
+  padding-left: 160px;
+  font-size: 33px;
   font-weight: bold;
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
 }
@@ -39,6 +39,7 @@ body {
 .topnav {
   overflow: hidden;
   font-family: Arial, Helvetica, sans-serif;
+  border-top: 1px solid rgb(182, 182, 182);
 }
 
 .topnav a {
@@ -66,7 +67,7 @@ body {
   margin-right: auto;
   padding-left: 20px;
   padding-right: 20px;
-  max-width: 1200px;
+  max-width: 60vw;
   width: 100%;
   box-sizing: border-box;
 }
@@ -201,3 +202,69 @@ body {
   padding-left: 225px;
   padding-top: 18px;
 }
+
+.profile{
+  position:absolute;
+bottom:70px;
+}
+
+.header{
+  display:flex;
+  justify-content: space-between;
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 10px;
+  padding-right: 10px;
+  max-width: 2000px;
+  width: 100%;
+  box-sizing: border-box;
+  background-color: white;
+}
+
+.logosearch{
+  display:flex;
+  flex-direction: row;
+}
+
+form.search input[type=text] {
+  margin-left:10px;
+  padding: 12px;
+  font-size: 15px;
+  border-radius:20px;
+  width: 230px;
+  background: #f1f1f1;
+  border:none;
+  outline: none;
+}
+
+.sc{
+  margin-left:100px;
+  transition: 0.3s;
+}
+
+.sc:hover{
+  box-shadow: 3px 3px 3px #b6b6b6;
+}
+
+.page{
+  display:flex;
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 100px;
+  padding-right: 100px;
+  max-width: 1350px;
+  max-height:1350px;
+  width: 100%;
+  box-sizing: border-box;
+  font-family: Helvetica, Arial, sans-serif;
+
+}
+
+.cover{
+
+  background-image: linear-gradient(rgb(138, 138, 138), rgb(255, 255, 255));
+}
+
+
